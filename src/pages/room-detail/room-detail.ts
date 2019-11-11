@@ -16,15 +16,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RoomDetailPage {
 
+  
   roomdata:any=[];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
+    
     console.log('ionViewDidLoad RoomDetailPage');
     this.roomdata = this.navParams.data;
     console.log(this.roomdata);
+
+    
+
   }
- 
 
 }

@@ -3,12 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoaddataProvider } from '../../providers/loaddata/loaddata';
 import { RoomDetailPage } from '../room-detail/room-detail';
 
-/**
- * Generated class for the CondominiumPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
